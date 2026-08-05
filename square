@@ -1,0 +1,8 @@
+1 import math
+  2 a=int(input("enter the value:"))
+  3 print("square root=",math.sqrt(a))
+  4 print("pi=",math.pi)
+  5 print("radians=",math.radians(a))
+  6
+~
+~

@@ -1,0 +1,13 @@
+ def addtion(a,b):
+  2    return a+b
+  3 def subraction(a,b):
+  4    return a-b
+  5 def multiplication(a,b):
+  6    return a*b
+  7 def division(a,b):
+  8    return a/b
+  9 def modulus(a,b):
+ 10    return a%b
+~
+~
+~

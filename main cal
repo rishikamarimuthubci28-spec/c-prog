@@ -1,0 +1,12 @@
+  1 from operation_package.fibo import fibonacci
+  2 from operation_package.fact import factorial
+  3 def main():
+  4    n_fibo=int(input("enter the no.of terms for fibonacci series:"))
+  5    print(f"fibonacci series:{fibonacci(n_fibo)}")
+  6    n_fact=int(input("enter a number to find the factorial:"))
+  7    print(f"factorial of {n_fact}:{factorial(n_fact)}")
+~
+~
+~
+~
+~

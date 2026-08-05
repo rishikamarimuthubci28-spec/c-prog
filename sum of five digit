@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    int sum = 0;
+    
+    // Read the five-digit integer
+    if (scanf("%d", &n) != 1) return 1;
+    
+    // Extract each digit using a loop
+    while (n > 0) {
+        sum += n % 10; // Add the last digit to sum
+        n /= 10;       // Remove the last digit
+    }
+    
+    // Print the final sum
+    printf("%d\n", sum);
+    
+    return 0;
+}

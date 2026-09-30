@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    char *s;
+    s = malloc(1024 * sizeof(char));
+    
+    // Read the entire line of text including spaces
+    if (scanf("%[^\n]%*c", s) == 1) {
+        
+        // Loop through the string until the null terminator
+        for (int i = 0; s[i] != '\0'; i++) {
+            if (s[i] == ' ') {
+                printf("\n"); // Replace space with a newline character
+            } else {
+                printf("%c", s[i]); // Print the character
+            }
+        }
+    }
+    
+    free(s);
+    return 0;
+}

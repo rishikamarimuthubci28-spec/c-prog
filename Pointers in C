@@ -1,0 +1,9 @@
+#include <stdlib.h> // Required for abs()
+
+void update(int *a, int *b) {
+    int original_a = *a;
+    int original_b = *b;
+    
+    *a = original_a + original_b;
+    *b = abs(original_a - original_b);
+}
